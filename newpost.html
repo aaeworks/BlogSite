@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Creat New Post</title>
+  </head>
+  <body>
+    <div class="center">
+      <div class="center">
+        <h2> <a href="index.html">aaeworks</a> </h2>
+      </div>
+      <div class="center">
+        <input placeholder="Title" type="text" id="title"/><br>
+        <textarea id="details" cols="20" rows="10" class="form-control" placeholder="Content"></textarea>
+      </div>
+      <div class="center">
+        <button id="submit" onclick="save()"> SUBMIT </button>
+      </div>
+    </div>
+  </body>
+<style>
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+input, textarea {
+  width: 100%;
+}
+input, textarea {
+  margin-top: 10px;
+}
+h2{
+  margin-left: 110px;
+}
+button{
+  margin-left: 130px;
+}
+
+    
+</style>
+
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+    <script src="index.js"></script>
+    <script src="style.css"></script>
+
+</html>
